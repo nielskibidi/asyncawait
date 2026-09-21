@@ -62,13 +62,30 @@ void main() {
   // }
 
   // Latihan di rumah
-  // 1. User input 3 jenis data
-  // 2. Data 1 tipe string (nama)
-  // 3. Data 2 tipe int (umur)
-  // 4. Data 3 tipe num (berat)
-  // 5. Fungsi yang ada pengembalian nilai List<Map>
+  // User input 3 jenis data
+  // Data 1 tipe string (nama)
+  // Data 2 tipe int (umur)
+  // Data 3 tipe num (berat)
+  // Fungsi yang ada pengembalian nilai List<Map>
   // Dalam fungsi ada terima input 3 (String nama, int umur, double berat)
   // Proses dalam fungsi adalah gimana cara 3 input ini jadi map baru list.add()
   // Return List<Map>
   // Print nama saya A, umur B, berat saya C
+  // List<Map> datamhs(String a, int b, double c) {
+  //   return [
+  //     {'Nama': a, 'Umur': b, 'Berat': c},
+  //   ];
+  // }
+
+  // stdout.writeln('Masukkan Nama');
+  // var input1 = stdin.readLineSync()!;
+  // stdout.writeln('Masukkan Umur');
+  // var input2 = stdin.readLineSync()!;
+  // stdout.writeln('Masukkan Berat');
+  // var input3 = stdin.readLineSync()!;
+
+  // var hasil = datamhs(input1, int.parse(input2), double.parse(input3));
+  // print(
+  //   'Nama Saya : ${hasil[0]['Nama']}, Umur : ${hasil[0]['Umur']}, Berat Saya : ${hasil[0]['Berat']}',
+  // );
 }
